@@ -27,3 +27,52 @@
     height:85px;
     
 }
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    background-color: #b9b9b9;
+    justify-content: space-around;
+    gap: 10px;
+    height:500px;
+ 
+}
+.grid-container div {
+    background-color: #d4d4d4;
+}
+.four {
+    display : grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    
+
+}
+.four div {
+    margin : 3px 3px 3px 3px;
+    border: 1px solid;
+    background-color: #3b3c3c;
+}
+
+.two {
+    display : grid;
+    grid-template-rows: repeat(2, 2fr);
+
+
+    gap:10px 10px;
+}
+.two div {
+    margin : 3px 3px 3px 3px;
+    border: 1px solid;
+    background-color: #3b3c3c;
+}
+
+.two1 {
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px 10px;
+}
+.two1 div {
+    margin : 3px 3px 3px 3px;
+    border: 1px solid;
+    background-color: #3b3c3c;
+}
