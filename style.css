@@ -1,0 +1,29 @@
+.container {
+    
+    background-color: rgb(241, 231, 182);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.flex 
+{
+    box-sizing: border-box;
+    margin:10px;
+    background-color: white;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius: 80px;
+    width:370px;
+    height:430px;
+}
+.flex div{
+    border-bottom: 1px solid rgb(189, 189, 189);
+    margin-top:16px;
+    margin-left:13px;
+    margin-right:5px;
+    margin-bottom:5px;
+    width: 349px;
+    height:85px;
+    
+}
